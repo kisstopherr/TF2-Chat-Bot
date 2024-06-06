@@ -42,7 +42,8 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     }
     ```
 
-3. Create an `autoexec.cfg` file in your TF2 game directory with the following content:
+3. Create an `autoexec.cfg` file in your TF2 game (C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg
+) directory with the following content:
 
     ```cfg
     developer 1
@@ -51,7 +52,7 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     con_filter_enable 1
     con_filter_text "/"
     ```
-TIP:
+NOTE:
 The `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same
 
 ### Configuration
