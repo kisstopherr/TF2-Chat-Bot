@@ -6,21 +6,21 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 
 - Execute predefined commands based on chat messages.
 - Commands are defined in a JSON file for easy customization.
-- Includes a command to clear the chat log.
+- Endless customization ideas
 
 ## Setup
 
 ### Prerequisites
 
-- Python 3.x installed on your system.
+- At least Python 3.1 installed on your system.
 
 ### Installation
 
 1. Clone the repository to your local machine:
 
     ```sh
-    git clone https://github.com/yourusername/chat-bot.git
-    cd chat-bot
+    git clone https://github.com/kisstopherr/TF2-Chat-Bot.git
+    cd TF2-Chat-Bot
     ```
 
 2. Create a `commands.json` file in the project directory with the following content:
@@ -44,10 +44,10 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 
 ### Configuration
 
-- Edit the `chat_bot.py` file to set the `username` and `log_file` variables as needed.
+- Edit the `main.py` file to set the `username` and `log_file` and `botPrefix` variables as needed.
 
     ```python
-    username = "kisstopherr"
+    username = "yourname"
     log_file = "C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/console_chatlog.txt"
     ```
 
@@ -56,7 +56,7 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 1. Run the bot:
 
     ```sh
-    python chat_bot.py
+    python main.py
     ```
 
 2. The bot will read the chat log every second and execute commands based on messages in the log.
