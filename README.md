@@ -24,28 +24,8 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     cd TF2-Chat-Bot
     ```
 
-2. Create a `commands.json` file in the project directory with the following content:
-
-    ```json
-    {
-      "commands": [
-        {
-          "ping": {
-            "function": "ping"
-          }
-        },
-        {
-          "clear": {
-            "function": "clearChatLog"
-          }
-        }
-      ]
-    }
-    ```
-
-3. Create an `autoexec.cfg` file in your TF2 game (C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg
-) directory with the following content:
-
+2. Create an `autoexec.cfg` file in your TF2 game (C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg) directory with the following content:
+   
     ```cfg
     developer 1
     con_logfile console_chatlog.txt
@@ -56,12 +36,12 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 NOTE:
 The `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same
 
-### Configuration
+### Setup
 
 - Edit the `main.py` file to set the `username` and `log_file` and `botPrefix` variables as needed.
 
     ```python
-    username = "yourname"
+    username = "your name"
     log_file = "C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/console_chatlog.txt"1
     botPrefix = "/"
     ```
