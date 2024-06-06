@@ -5,6 +5,7 @@ file_path = "C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/co
 def loadCommand(functionName):
     try:
         globals()[functionName]()
+        clearChatLog()
         #print(f"Command '{functionName}' executed successfully.")
     except KeyError:
         print(f"Function '{functionName}' is not defined.")
@@ -24,8 +25,6 @@ def clearChatLog():
 
 def ping():
     print("PONG")
-    clearChatLog()
 
 def help():
     print("GITHUB")
-    clearChatLog()
