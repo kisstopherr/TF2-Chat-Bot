@@ -42,6 +42,16 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     }
     ```
 
+3. Create an `autoexec.cfg` file in your TF2 game directory with the following content:
+
+    ```cfg
+    developer 1
+    con_logfile console_chatlog.txt
+    con_timestamp 0
+    con_filter_enable 1
+    con_filter_text "/"
+    ```
+
 ### Configuration
 
 - Edit the `main.py` file to set the `username` and `log_file` and `botPrefix` variables as needed.
