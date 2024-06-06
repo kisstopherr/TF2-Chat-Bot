@@ -51,6 +51,7 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     con_filter_enable 1
     con_filter_text "/"
     ```
+# the `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same
 
 ### Configuration
 
@@ -58,7 +59,8 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 
     ```python
     username = "yourname"
-    log_file = "C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/console_chatlog.txt"
+    log_file = "C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/console_chatlog.txt"1
+    botPrefix = "/"
     ```
 
 ## Usage
@@ -73,8 +75,8 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 
 ### Example Commands
 
-- **Ping Command**: Responds with "Pinging..." when a message with `/ping` is detected.
-- **Clear Command**: Clears the contents of the chat log file when a message with `/clear` is detected.
+- **Ping Command**: Responds with "Pong" when `/ping` is detected.
+- **Help Command**: Responds with "GITHUB" when `/clear` is detected.
 
 ## Adding New Commands
 
@@ -88,11 +90,12 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     }
     ```
 
-2. Implement the corresponding function in `chat_bot.py`:
+2. Implement the corresponding function in `commands.py`:
 
     ```python
     def newFunction():
         print("New command executed!")
+        clearChatLog()
     ```
 
 3. The bot will now recognize and execute the new command.
