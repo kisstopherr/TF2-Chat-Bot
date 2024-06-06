@@ -13,6 +13,7 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 ### Prerequisites
 
 - At least Python 3.1 installed on your system.
+- Team Fortress 2 installed
 
 ### Installation
 
