@@ -78,7 +78,7 @@ The `con_filter_text` is your bots prefix so make sure your `con_filter_text` an
 ### Example Commands
 
 - **Ping Command**: Responds with "Pong" when `/ping` is detected.
-- **Help Command**: Responds with "GITHUB" when `/clear` is detected.
+- **Help Command**: Responds with "GITHUB" when `/help` is detected.
 
 ## Adding New Commands
 
