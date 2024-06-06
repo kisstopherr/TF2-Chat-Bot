@@ -51,7 +51,8 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     con_filter_enable 1
     con_filter_text "/"
     ```
-#### the `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same
+###TIP:
+The `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same
 
 ### Configuration
 
