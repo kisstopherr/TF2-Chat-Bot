@@ -1,0 +1,14 @@
+{
+    "commands": [
+      {
+        "ping": {
+            "function": "ping"
+        },
+
+        "help": {
+            "function": "help"
+        }
+      }
+    ]
+  }
+  
