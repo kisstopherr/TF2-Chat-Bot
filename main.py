@@ -3,7 +3,7 @@ import json
 import os
 import commands
 
-username = "kisstopherr"
+username = "yourname"
 botPrefix = "/"
 commandChat = f"{username} :  {botPrefix}"
 currentCommand = ""
