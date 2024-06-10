@@ -31,7 +31,7 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     pip install keyboard
     ```
 
-4. Create an `autoexec.cfg` file in your TF2 game directory (C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg) with the following content:
+3. Create an `autoexec.cfg` file in your TF2 game directory (C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg) with the following content:
    
     ```cfg
     developer 1
@@ -42,9 +42,8 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     bind F10 exec chatbotmsg.cfg
     ```
 NOTE:
-The `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same.
-You can change the `F10` to any button, but make sure its the same in the `commands.py` file too. 
-
+- The `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same.
+- You can change the `F10` to any button, but make sure its the same in the `commands.py` file too. 
 
 4. Create an `chabotmsg.cfg` file in your TF2 game directory (C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\cfg) and leave it blank.
 
