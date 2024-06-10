@@ -92,4 +92,14 @@ You can change the `F10` to any button, but make sure its the same in the `main.
 
 ## In-Game Chat Messging
 
-    - **Ping
+1. Make sure to have the Keyboard libary installed.
+
+2. In your `commands.py` there is a function called `chatMessage`. To use it input a string and it will print the inputed string into the In-Game Chat.
+
+3. Add it to your functions:
+
+   ```python
+
+    def ping():
+       chatMessage("Pong")
+   ```
