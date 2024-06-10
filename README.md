@@ -87,3 +87,9 @@ You can change the `F10` to any button, but make sure its the same in the `main.
     ```
 
 3. The bot will now recognize and execute the new command.
+
+
+
+## In-Game Chat Messging
+
+**Ping
