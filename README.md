@@ -114,7 +114,7 @@ You can change the `F10` to any button, but make sure its the same in the `main.
    
 3. In the `findCommands` function it reads the `commands.json` file and checks if the inputed string matches any commands in the `commands.json` file. If it doesn't it returns `False` otherwise it returns `True`.
    
-4. If the function returns `True` it runs `commands.loadCommand(function_name`.
+4. If the function returns `True` it runs `commands.loadCommand(function_name)`.
    
 5. In the `loadCommand` function it trys to run `globals()[functionName]()` which try to find a function name in the script with the name of the inputed `funcionName`. After that it clears the `console_chatlog.txt`
     
