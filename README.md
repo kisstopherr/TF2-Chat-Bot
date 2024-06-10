@@ -18,7 +18,7 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 
 ### Installation
 
-1. Clone the repository to your local machine or download the files: [#Usage]
+1. Clone the repository to your local machine or download the files:
 
     ```sh
     git clone https://github.com/kisstopherr/TF2-Chat-Bot.git
