@@ -32,9 +32,11 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
     con_timestamp 0
     con_filter_enable 1
     con_filter_text "/"
+    bind F10 exec chatbotmsg.cfg
     ```
 NOTE:
-The `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same
+The `con_filter_text` is your bots prefix so make sure your `con_filter_text` and `botPrefix` are the same.
+You can change the `F10` to any button, but make sure its the same in the `main.py` file too. 
 
 ### Setup
 
