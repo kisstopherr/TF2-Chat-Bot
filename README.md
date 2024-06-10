@@ -76,6 +76,8 @@ You can change the `F10` to any button, but make sure its the same in the `main.
       }
     }
     ```
+- The `new_command` is what the command message will look like not including the bot prefix.
+- The `newFunction` should be the same as the corresponding function name in `commands.py`
 
 2. Implement the corresponding function in `commands.py`:
 
