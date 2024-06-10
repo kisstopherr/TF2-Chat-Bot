@@ -27,4 +27,4 @@ def ping():
     print("PONG")
 
 def help():
-    print("GITHUB")
+    print("Look at the Github")
