@@ -6,7 +6,7 @@ This project is a simple chat bot for Team Fortress 2. The bot reads chat messag
 
 - Execute predefined commands based on chat messages.
 - Commands are defined in a JSON file for easy customization.
-- Endless customization ideas
+- Endless customization ideas.
 
 ## Setup
 
