@@ -92,4 +92,4 @@ You can change the `F10` to any button, but make sure its the same in the `main.
 
 ## In-Game Chat Messging
 
-**Ping
+    - **Ping
