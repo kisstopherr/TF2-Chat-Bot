@@ -103,3 +103,5 @@ You can change the `F10` to any button, but make sure its the same in the `main.
     def ping():
        chatMessage("Pong")
    ```
+
+- The `Keyboard` libary is required because the `chatMessage` function uses it to press F10 which runs `exec chatMessage.cfg` which prints the inputed string into the chat.
