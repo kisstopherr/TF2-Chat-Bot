@@ -105,3 +105,12 @@ You can change the `F10` to any button, but make sure its the same in the `main.
 - The `Keyboard` libary is required because the `chatMessage` function uses it to press F10 which runs `exec chatMessage.cfg` which prints the inputed string into the chat.
 
 # How it works?
+
+- The bot itself may same hard to understand, but its very simple when looked at what each file does.
+
+    1. The first thing the script does is delete the contents of the `console_chatlog.txt`.
+    2. Next it reads the contents of the file every 1 second. If it finds anything that starts with the `username` variable and the `botPrefix` then it calleds the `findCommands` function with the `currentCommand` string as an input.
+    3. In the `findCommands` function it reads the `commands.json` file and checks if the inputed string matches any commands in the `commands.json` file. If it doesn't it returns `False` otherwise it returns `True`.
+    4. If the function returns `True` it runs `commands.loadCommand(function_name`.
+    5. In the `loadCommand` function it trys to run `globals()[functionName]()` which try to find a function name in the script with the name of the inputed `funcionName`. After that it clears the `console_chatlog.txt`
+    6. After that if no errors happen the `loadCommand` will run the inputed function which will run whatever is in it.
